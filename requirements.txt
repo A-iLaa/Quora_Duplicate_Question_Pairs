@@ -7,3 +7,4 @@ xgboost
 flask
 flask_wtf
 wtforms
+gensim
