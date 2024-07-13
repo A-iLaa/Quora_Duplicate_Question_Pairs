@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+<p>The Quora Duplicate Question Pairs project aims to identify whether two questions on Quora are duplicates or not. 
+   This project was developed to address the issue of people asking the same question in different ways on the platform, 
+   leading to duplicated content and redundant answers.By detecting duplicate question pairs, the project aims to optimize the 
+   Quora website by reducing redundancy and improving the user experience. It helps ensure that users can find relevant answers
+   without having to navigate through multiple instances of the same question.</p>
+</div>
+<p>Want to try? click <a href="{{ url_for('predict') }}">here</a></p>
+{% endblock content %}
