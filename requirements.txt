@@ -6,3 +6,4 @@ gunicorn
 xgboost
 flask
 flask_wtf
+wtforms
