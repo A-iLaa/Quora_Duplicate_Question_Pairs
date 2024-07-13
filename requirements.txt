@@ -8,3 +8,6 @@ flask
 flask_wtf
 wtforms
 gensim
+joblib
+numpy
+pandas
