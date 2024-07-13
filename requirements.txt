@@ -1,6 +1,0 @@
-sklearn
-fuzzywuzzy
-distance
-bs4
-gunicorn
-xgboost
