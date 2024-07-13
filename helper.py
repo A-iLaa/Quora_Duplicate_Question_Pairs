@@ -2,7 +2,6 @@ import re
 from bs4 import BeautifulSoup
 import distance
 from fuzzywuzzy import fuzz
-import pickle
 import numpy as np
 import joblib
 import gensim
