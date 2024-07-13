@@ -5,3 +5,4 @@ bs4
 gunicorn
 xgboost
 flask
+flask_wtf
