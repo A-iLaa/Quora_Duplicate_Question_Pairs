@@ -4,7 +4,6 @@ import distance
 from fuzzywuzzy import fuzz
 import numpy as np
 import joblib
-import gensim
 from nltk.corpus import stopwords
 
 cv = joblib.load('cv.joblib')
