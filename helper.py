@@ -5,6 +5,7 @@ from fuzzywuzzy import fuzz
 import numpy as np
 import joblib
 import gensim
+import nltk.corpus import stopwords
 
 cv = joblib.load('cv.joblib')
 
@@ -23,7 +24,7 @@ def test_total_words(q1,q2):
 def test_fetch_token_features(q1, q2):
     SAFE_DIV = 0.0001
 
-    STOP_WORDS = gensim.parsing.preprocessing.STOPWORDS
+    STOP_WORDS = stopwords.words("english")
     token_features = [0.0] * 8
 
     # Converting the Sentence into Tokens:
