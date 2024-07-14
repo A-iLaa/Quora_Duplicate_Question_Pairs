@@ -5,7 +5,7 @@ from fuzzywuzzy import fuzz
 import numpy as np
 import joblib
 import gensim
-import nltk.corpus import stopwords
+from nltk.corpus import stopwords
 
 cv = joblib.load('cv.joblib')
 
