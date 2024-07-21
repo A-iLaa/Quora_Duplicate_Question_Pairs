@@ -5,12 +5,13 @@ Welcome to the Quora Duplicate Questions repository! This project aims to identi
 ## Features
 The dataset has undergone initial cleaning and TF-IDF encoding. Additionally, several features have been extracted from the data set, including:
 
-Length of questions
+Length of questions 
 Number of words
 Total number of unique words from the two questions
 Number of common words
 Word share (ratio of common words to total number of words)
-Token features:
+
+## Token features:
 CWC_min: Ratio of number of common words to the minimum of the lengths of the questions
 CWC_max: Ratio of number of common words to the maximum of the lengths of the questions
 CSC_min: Number of common stop words divided by the minimum number of stop words in the two questions
@@ -19,12 +20,16 @@ CTC_min: Number of common tokens divided by the minimum number of tokens in the 
 CTC_max: Number of common tokens divided by the maximum number of tokens in the two questions
 Last_word_eq: Checks whether the last words of the questions are equal or not
 First_word_eq: Checks whether the first words of the questions are equal or not
-Length features:
+
+## Length features:
 Difference in lengths of the questions
 Mean of lengths of the questions
 Ratio of the longest common substring to the minimum of the lengths of the questions plus one
-Fuzzy features: Utilizes fuzzy string matching techniques (refer to this link for more information)
+
+## Fuzzy features: 
+Utilizes fuzzy string matching techniques (refer to this link for more information)
 Usage
+
 To use this project, follow these steps:
 
 Clone the repository: git clone https://github.com/A-iLaa/Quora-Duplicate-Questions.git
