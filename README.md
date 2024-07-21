@@ -23,8 +23,9 @@ Mean of lengths of the questions
 Ratio of the longest common substring to the minimum of the lengths of the questions plus one
 
 ### Fuzzy features: 
-Utilizes fuzzy string matching techniques (refer to this link for more information)
-Usage
+Utilizes fuzzy string matching techniques (refer to this link for more information) https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
+
+## Usage
 
 To use this project, follow these steps:
 
